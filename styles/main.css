@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "fonts.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-size: 100px;
+}
+
+
+@media (min-width: 768px){
+
+}
