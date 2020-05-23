@@ -5,9 +5,48 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  font-size: 100px;
 }
 
+.cover {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background: #00FF38;
+  border:27px solid #9000EB;
+  padding: 52px;
+  color: #FF0099;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cover_violet-way {
+  position: absolute;
+  width: auto;
+  height: 147vh;
+  margin: -79vh;
+}
+.cover_violet-way svg {
+  height: 100vh;
+  width: auto;
+
+}
+.cover_top-part {
+  font-family: 'Geometria-Heavy', sans-serif;
+  font-size: 228px;
+  line-height: 89.9%;
+}
+.cover_top-part .header {
+  font-family: 'Geometria-Medium', sans-serif;
+  font-size: 41px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  line-height: normal;
+}
+.cover_bottom-part {
+  font-family: 'Geometria-Bold', sans-serif;
+  font-size: 93px;
+}
 
 @media (min-width: 768px){
 
