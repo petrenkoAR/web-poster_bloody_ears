@@ -90,23 +90,25 @@
 @media (min-width: 1152px){
   .cover {
     border-width: 10px;
-    padding: 21px;
+    padding: 22px;
   }
   .cover_way-container {
     margin: -32px;
   }
   .cover_way-container .violet-way path{
-    stroke-width: 48px;
+    stroke-width: 4.5vw;
   }
   .cover_top-part {
-    font-size: 171px;
+    font-size: 15vw;
+    margin-left: -0.5vw;
   }
   .cover_top-part .header {
-    font-size: 28px;
+    font-size: 2.45vw;
     margin-bottom: 0px;
+    margin-left: 0.5vw;
   }
   .cover_bottom-part {
-    font-size: 50px;
+    font-size: 4.2vw;
     display: flex;
     justify-content: space-between;
   }
