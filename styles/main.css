@@ -86,3 +86,31 @@
     margin-bottom: 8px;
   }
 }
+
+@media (min-width: 1152px){
+  .cover {
+    border-width: 10px;
+    padding: 21px;
+  }
+  .cover_way-container {
+    margin: -32px;
+  }
+  .cover_way-container .violet-way path{
+    stroke-width: 48px;
+  }
+  .cover_top-part {
+    font-size: 171px;
+  }
+  .cover_top-part .header {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+  .cover_bottom-part {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cover_bottom-part p {
+    margin-bottom: 0;
+  }
+}
