@@ -11,6 +11,7 @@
   overflow: hidden;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   background: #00FF38;
   border:23px solid #9000EB;
   padding: 47px;
@@ -35,20 +36,22 @@
 }
 .cover_top-part {
   font-family: 'Geometria-Heavy', sans-serif;
-  font-size: 235px;
-  line-height: 89.9%;
+  font-size: 24.2vw;
+  line-height: 84%;
+  margin-left: -0.8vw;
 }
 .cover_top-part .header {
   font-family: 'Geometria-Medium', sans-serif;
-  font-size: 41px;
+  font-size: 4.5vw;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   line-height: normal;
+  margin-left: 0.8vw;
 }
 .cover_bottom-part {
   font-family: 'Geometria-Bold', sans-serif;
-  font-size: 96px;
+  font-size: 9.8vw;
 }
 .cover_bottom-part p {
   margin-bottom: 18px;
@@ -60,6 +63,17 @@
 .cover_bottom-part {
   z-index: 1;
 }
+.cover_ear_container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: -70px;
+}
+.cover_ear {
+  height: 60vh;
+  margin: 40vh 31vw;
+}
 
 @media (min-width: 768px){
   .cover {
@@ -67,7 +81,7 @@
     padding: 35px;
   }
   .cover_way-container {
-    margin: -48px;
+    margin: -49px;
   }
   .cover_way-container .violet-way path{
     stroke-width: 41px;
@@ -85,9 +99,16 @@
   .cover_bottom-part p {
     margin-bottom: 8px;
   }
+  .cover_ear_container {
+    margin: -46px;
+  }
+  .cover_ear {
+    height: 65vh;
+    margin: 35vh 36vw;
+  }
 }
 
-@media (min-width: 1152px){
+@media (min-width: 1024px){
   .cover {
     border-width: 10px;
     padding: 22px;
@@ -114,5 +135,12 @@
   }
   .cover_bottom-part p {
     margin-bottom: 0;
+  }
+  .cover_ear_container {
+    margin: -32px;
+  }
+  .cover_ear {
+    height: 75vh;
+    margin: 25vh 36vw;
   }
 }

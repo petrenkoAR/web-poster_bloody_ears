@@ -3,6 +3,10 @@
   src: url(fonts/Geometria-Medium.woff);
 }
 @font-face {
+  font-family: 'Geometria';
+  src: url(fonts/Geometria.woff);
+}
+@font-face {
   font-family: 'Geometria-Bold';
   src: url(fonts/Geometria-Bold.woff);
 }
