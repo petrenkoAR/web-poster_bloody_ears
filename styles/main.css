@@ -21,7 +21,7 @@
 }
 .cover_way-container {
   position: absolute;
-  margin: -70px;
+  margin: -72px;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -67,7 +67,7 @@
     padding: 35px;
   }
   .cover_way-container {
-    margin: -46px;
+    margin: -48px;
   }
   .cover_way-container .violet-way path{
     stroke-width: 41px;
