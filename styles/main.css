@@ -423,80 +423,77 @@
   }
   .map .icons-container {
     border-width: 1vw;
-    top: 111.5vh;
+    top: 120.5vh;
     left: 12vw;
     width: 76vw;
-    height: 164vw;
+    height: 159vw;
   }
   .map .icons-container div {
-    width: 13vw;
-    height: 13vw;
+    width: 10vw;
+    height: 10vw;
   }
   .wc {
-    margin: 5.5vw 0 0 19vw;
+    margin: 4vw 0 0 60vw;
   }
   .enter {
-    margin: 11.8vw 0 0 56.8vw;
+    margin: 8vw 0 0 18vw;
   }
   .medicine {
-    margin: 18vw 0 0 12.5vw;
+    margin: 18vw 0 0 4vw;
   }
   .hand-love {
-    margin: 31.5vw 0 0 44.5vw;
+    margin: 27vw 0 0 55vw;
   }
   .ear {
     margin: 50vw 0 0 25vw;
   }
   .tickets {
-    margin: 82vw 0 0 51vw;
+    margin: 60vw 0 0 28vw;
   }
   .info {
-    margin: 95vw 0 0 19vw;
+    margin: 64vw 0 0 46vw;
   }
   .mouth-close {
-    margin: 120vw 0 0 57vw;
+    margin: 69vw 0 0 4vw;
   }
   .food {
-    margin: 126.5vw 0 0 31.5vw;
+    margin: 87.5vw 0 0 59.5vw;
   }
   .hand-rap {
-    margin: 139.5vw 0 0 12.5vw;
+    margin: 88.5vw 0 0 8.5vw;
   }
   .drink {
-    margin: 165vw 0 0 50.5vw;
+    margin: 101vw 0 0 32.5vw;
   }
   .hand-peace {
-    margin: 178vw 0 0 6vw;
+    margin: 120vw 0 0 56vw;
   }
   .hand-rock {
-    margin: 190vw 0 0 37.5vw;
+    margin: 125vw 0 0 22.5vw;
   }
   .mouth-open {
-    margin: 209.5vw 0 0 57vw;
+    margin: 143.5vw 0 0 37vw;
   }
 
 
   .map .mouth-container {
-    bottom: -257vw;
+    bottom: -182vw;
   }
   .map .mouth-container .map-mouth {
-    width: 56vw;
+    width: 40vw;
   }
 
   .pink-way-container {
-    top: 90vw;
+    top: 31vw;
   }
-  .pink-way-container .desktop .pink-way,
+  .pink-way-container .tablet .pink-way,
   .pink-way-container .phone .pink-way {
     height: 0;
     width: 0;
   }
-  .pink-way-container .tablet .pink-way {
-    width: 81vw;
+  .pink-way-container .desktop .pink-way {
+    width: 70vw;
     height: auto;
-    margin-left: 10vw;
-  }
-  .pink-way-container .phone .pink-way path{
-    stroke-width: 1.5vw;
+    margin-left: 18vw;
   }
 }
