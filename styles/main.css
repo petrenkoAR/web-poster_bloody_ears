@@ -13,16 +13,11 @@
   border: 1vw solid #8700DC;
   padding: 4vh 6vw;
 }
-
-
-/*ОБЛОЖКА*/
-
 .cover {
   height: 100vh;
   background: #00FF38;
   color: #FF4ACC;
 }
-
 .cover .ways-container,
 .cover .ear-container {
   position: absolute;
@@ -44,7 +39,6 @@
 .cover .ways-container .violet-way .big-way{
   stroke-width: 5vw;
 }
-
 .cover .text-container {
   position: absolute;
   width: 86vw;
@@ -80,17 +74,12 @@
 .cover .text-container .bottom p:nth-of-type(3) {
   margin-bottom: 0;
 }
-
 .cover .ear-container .ear-cover {
   height: 60vh;
   position: absolute;
   bottom: 0;
   right: -20vw;
 }
-
-
-/*КАРТА*/
-
 .map {
   background-color: #8700DC;
 }
@@ -111,12 +100,10 @@
   position: absolute;
   width: 0;
 }
-
 .map .icons-container {
   border: 2vw solid #00FF38;
   position: absolute;
-  top: 108vh;
-  left: 14vw;
+  margin: -350vw 7vw;
   width: 71vw;
   height: 341vw;
 }
@@ -182,8 +169,6 @@
   background: url(imgs/icons/mouth-open.png);
   margin: 303vw 0 0 10vw;
 }
-
-
 .map .mouth-container {
   position: absolute;
   left: 0;
@@ -220,10 +205,6 @@
   .map {
     padding: 4vh 4vw;
   }
-
-
-  /*ОБЛОЖКА*/
-
   .cover .ways-container .violet-way {
     margin: 0 -60vw;
   }
@@ -257,10 +238,6 @@
     height: 60vh;
     right: -20vw;
   }
-
-
-  /*КАРТА*/
-
   .map .grids-container .tablet {
     width: 90vw;
   }
@@ -279,8 +256,7 @@
   }
   .map .icons-container {
     border-width: 1vw;
-    top: 109.5vh;
-    left: 11vw;
+    margin: -238vw 6vw;
     width: 78vw;
     height: 230vw;
   }
@@ -356,16 +332,12 @@
     stroke-width: 1.5vw;
   }
 }
-
 @media (min-width: 1024px){
   .cover,
   .map {
     border-width: 0.8vw;
     padding: 3vh 2.5vw;
   }
-
-
-  /*ОБЛОЖКА*/
 
   .cover .ways-container .violet-way {
     margin: 0;
@@ -376,7 +348,6 @@
   .cover .ways-container .violet-way .big-way{
     stroke-width: 4vw;
   }
-
   .cover .text-container {
     width: 93.4vw;
     height: 92.2vh;
@@ -396,15 +367,10 @@
   .cover .text-container .bottom p {
     margin-bottom: 0;
   }
-
   .cover .ear-container .ear-cover {
     height: 80vh;
     right: -4vw;
   }
-
-
-  /*КАРТА*/
-
   .map .grids-container .desktop {
     width: 93.4vw;
   }
@@ -423,8 +389,7 @@
   }
   .map .icons-container {
     border-width: 1vw;
-    top: 120.5vh;
-    left: 12vw;
+    margin: -168vw 9vw;
     width: 76vw;
     height: 159vw;
   }
@@ -445,13 +410,13 @@
     margin: 27vw 0 0 55vw;
   }
   .ear {
-    margin: 50vw 0 0 25vw;
+    margin: 36vw 0 0 27vw;
   }
   .tickets {
-    margin: 60vw 0 0 28vw;
+    margin: 60vw 0 0 27vw;
   }
   .info {
-    margin: 64vw 0 0 46vw;
+    margin: 64vw 0 0 45vw;
   }
   .mouth-close {
     margin: 69vw 0 0 4vw;
@@ -474,15 +439,12 @@
   .mouth-open {
     margin: 143.5vw 0 0 37vw;
   }
-
-
   .map .mouth-container {
     bottom: -182vw;
   }
   .map .mouth-container .map-mouth {
     width: 40vw;
   }
-
   .pink-way-container {
     top: 31vw;
   }

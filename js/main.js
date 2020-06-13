@@ -16,7 +16,7 @@ var frstWayChng = anime({
     //7
     { value: 'M0 268C34 268 92 658 216 682C340 706 784 524 538 520C292 516 106 10 404 180C702 350 690 32 690 0' }
   ],
-  easing: 'linear',
+  easing: 'easeInSine',
   duration: 5000,
   loop: true,
   direction: 'alternate'
@@ -38,7 +38,7 @@ var scndWayChng = anime({
     { value: 'M951.515 976C951.515 918 1331.52 792 1271.52 656C1211.52 520 922 440 826 550C730.001 660 887.997 764 979.999 794C1072 824 1501.52 976 1581.52 778C1661.52 580 1215.52 302 1353.52 192C1491.52 82 1890 342 1919.51 342' }
   ],
   scale: 2,
-  easing: 'linear',
+  easing: 'easeInSine',
   duration: 4000,
   loop: true,
   direction: 'alternate'
@@ -60,7 +60,7 @@ var thrdWayChng = anime({
     { value: 'M1318.47 0C1318.47 46 778.467 104 618.469 328C496.964 498.109 1054 256 1068 590C1082 924 298 922 298 976' }
   ],
   scale: 1.1,
-  easing: 'linear',
+  easing: 'easeInSine',
   duration: 4000,
   loop: true,
   direction: 'alternate'
@@ -76,3 +76,12 @@ var thrdWayChng = anime({
 //  duration: 1000,
 //  loop: true
 //});
+
+var pinkWayDraw = anime({
+  targets: '.pink-way path',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 3000,
+  delay: function(el, i) { return i * 250 },
+  loop: true
+});
