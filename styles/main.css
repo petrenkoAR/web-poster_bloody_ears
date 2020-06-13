@@ -10,179 +10,493 @@
 .cover,
 .map {
   width: 100vw;
-  border: 2vw solid #8700DC;
-  padding: 9vw 8vw;
+  border: 1vw solid #8700DC;
+  padding: 4vh 6vw;
 }
+
+
+/*ОБЛОЖКА*/
+
 .cover {
   height: 100vh;
   background: #00FF38;
   color: #FF4ACC;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
-.ways-container {
+
+.cover .ways-container,
+.cover .ear-container {
   position: absolute;
-  margin: -11vw -10vw;
+  left: 0;
+  top: 0;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  z-index: 0;
 }
-.ways-container .violet-way {
+.cover .ways-container .violet-way {
   height: 100vh;
   width: auto;
   margin: 0 -70vw;
 }
-.ways-container .violet-way .skinny-way{
-  stroke-width: 3vw;
+.cover .ways-container .violet-way .skinny-way{
+  stroke-width: 2vw;
 }
-.ways-container .violet-way .big-way{
-  stroke-width: 7vw;
+.cover .ways-container .violet-way .big-way{
+  stroke-width: 5vw;
 }
-.cover .top-part div{
+
+.cover .text-container {
+  position: absolute;
+  width: 86vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+.cover .text-container .top div{
   font-family: 'Geometria', sans-serif;
-  font-size: 3vw;
-  margin-bottom: 4vw;
+  font-size: 3.5vw;
+  margin-bottom: 2vw;
   display: flex;
   justify-content: space-between;
 }
-.cover .top-part div p:nth-of-type(2){
+.cover .text-container .top div p:nth-of-type(2){
   font-family: 'Geometria-Bold', sans-serif;
-  font-size: 3vw;
-  margin-bottom: 4vw;
-  display: flex;
-  justify-content: space-between;
 }
-.cover .top-part h1 {
+.cover .text-container .top h1 {
   font-family: 'Geometria-Heavy', sans-serif;
   font-size: 24vw;
   line-height: 82%;
   margin-left: -1.1vw;
 }
-.cover .bottom-part {
+.cover .text-container .bottom {
   font-family: 'Geometria-Bold', sans-serif;
   font-size: 8vw;
 }
-.cover .bottom-part p {
-  margin-bottom: 18px;
+.cover .text-container .bottom p {
+  margin-bottom: 2vw;
 }
-.cover .bottom-part p:nth-of-type(3) {
+.cover .text-container .bottom p:nth-of-type(3) {
   margin-bottom: 0;
 }
-.cover .top-part,
-.cover .bottom-part {
-  z-index: 1;
-}
-.cover_ear {
+
+.cover .ear-container .ear-cover {
   height: 60vh;
   position: absolute;
+  bottom: 0;
+  right: -20vw;
 }
+
+
+/*КАРТА*/
 
 .map {
   background-color: #8700DC;
 }
 .map .grids-container div {
-  width: 80vw;
+  width: 86vw;
   overflow-x: hidden;
 }
 .map .grids-container svg {
-  width: 80vw;
+  width: 86vw;
   height: auto;
 }
 .map .grids-container svg:nth-of-type(odd) {
   position: absolute;
-  width: 80vw;
 }
-.map .grids-container .desktop {
+.map .grids-container .desktop,
+.map .grids-container .tablet {
   opacity: 0;
   position: absolute;
+  width: 0;
 }
-.map .grids-container .mobile {
 
-}
 .map .icons-container {
-  border: 2vw solid
+  border: 2vw solid #00FF38;
+  position: absolute;
+  top: 108vh;
+  left: 14vw;
+  width: 71vw;
+  height: 341vw;
 }
-.map_mouth {
+.map .icons-container div {
+  width: 17vw;
+  height: 17vw;
+  background-size: contain;
   position: absolute;
 }
-.pink-way_container {
-  width: 100vw;
-  overflow-x: hidden;
+.wc {
+  background: url(imgs/icons/wc.png);
+  margin: 9vw 0 0 9vw;
 }
-.pink-way_container svg{
-  position: absolute;
+.enter {
+  background: url(imgs/icons/enter.png);
+  margin: 25.8vw 0 0 25.8vw;
+}
+.medicine {
+  background: url(imgs/icons/medicine.png);
+  margin: 60vw 0 0 42.5vw;
+}
+.hand-love {
+  background: url(imgs/icons/hand_love.png);
+  margin: 84.5vw 0 0 25.5vw;
+}
+.ear {
+  background: url(imgs/icons/ear.png);
+  margin: 118vw 0 0 9vw;
+}
+.tickets {
+  background: url(imgs/icons/tickets.png);
+  margin: 127vw 0 0 34vw;
+}
+.info {
+  background: url(imgs/icons/info.png);
+  margin: 152vw 0 0 17vw;
+}
+.mouth-close {
+  background: url(imgs/icons/mouth-close.png);
+  margin: 177vw 0 0 42.5vw;
+}
+.food {
+  background: url(imgs/icons/food.png);
+  margin: 202.5vw 0 0 9vw;
+}
+.hand-rap {
+  background: url(imgs/icons/hand-rap.png);
+  margin: 211.5vw 0 0 42.5vw;
+}
+.drink {
+  background: url(imgs/icons/drink.png);
+  margin: 253vw 0 0 9vw;
+}
+.hand-peace {
+  background: url(imgs/icons/hand-peace.png);
+  margin: 262vw 0 0 51vw;
+}
+.hand-rock {
+  background: url(imgs/icons/hand-rock.png);
+  margin: 304vw 0 0 42.5vw;
+}
+.mouth-open {
+  background: url(imgs/icons/mouth-open.png);
+  margin: 303vw 0 0 10vw;
 }
 
-/*@media (min-width: 768px){
-  .cover {
-    border-width: 11px;
-    padding: 35px;
+
+.map .mouth-container {
+  position: absolute;
+  left: 0;
+  bottom: -372vw;
+  width: 100vw;
+  overflow: hidden;
+}
+.map .mouth-container .map-mouth {
+  width: 56vw;
+  /*margin: -10vw -10vw;*/
+}
+
+.pink-way-container {
+  position: absolute;
+  top: 105vw;
+  left: 0;
+}
+.pink-way-container .desktop .pink-way,
+.pink-way-container .tablet .pink-way {
+  height: 0;
+  width: 0;
+}
+.pink-way-container .phone .pink-way {
+  width: 84vw;
+  height: auto;
+  margin-left: 13vw;
+}
+.pink-way-container .phone .pink-way path{
+  stroke-width: 1.5vw;
+}
+
+@media (min-width: 768px){
+  .cover,
+  .map {
+    padding: 4vh 4vw;
   }
-  .cover_way-container {
-    margin: -49px;
+
+
+  /*ОБЛОЖКА*/
+
+  .cover .ways-container .violet-way {
+    margin: 0 -60vw;
   }
-  .cover_way-container .violet-way path{
-    stroke-width: 41px;
+  .cover .ways-container .violet-way .skinny-way{
+    stroke-width: 2vw;
   }
-  .cover_top-part {
-    font-size: 222px;
+  .cover .ways-container .violet-way .big-way{
+    stroke-width: 5vw;
   }
-  .cover_top-part .header {
-    font-size: 31px;
-    margin-bottom: 6px;
+
+  .cover .text-container {
+    width: 88.5vw;
+    height: 90vh;
   }
-  .cover_bottom-part {
-    font-size: 76px;
+  .cover .text-container .top div{
+    font-size: 3vw;
+    margin-bottom: 1vw;
   }
-  .cover_bottom-part p {
-    margin-bottom: 8px;
+  .cover .text-container .top h1 {
+    font-size: 22vw;
+    margin-left: -0.5vw;
   }
-  .cover_ear_container {
-    margin: -46px;
+  .cover .text-container .bottom {
+    font-size: 6vw;
   }
-  .cover_ear {
-    height: 65vh;
-    margin: 35vh 36vw;
+  .cover .text-container .bottom p {
+    margin-bottom: 1vw;
+  }
+
+  .cover .ear-container .ear-cover {
+    height: 60vh;
+    right: -20vw;
+  }
+
+
+  /*КАРТА*/
+
+  .map .grids-container .tablet {
+    width: 90vw;
+  }
+  .map .grids-container .tablet svg {
+    width: 90vw;
+  }
+  .map .grids-container .tablet{
+    opacity: 1;
+    position: static;
+  }
+  .map .grids-container .desktop,
+  .map .grids-container .phone {
+    opacity: 0;
+    position: absolute;
+    width: 0;
+  }
+  .map .icons-container {
+    border-width: 1vw;
+    top: 109.5vh;
+    left: 11vw;
+    width: 78vw;
+    height: 230vw;
+  }
+  .map .icons-container div {
+    width: 13vw;
+    height: 13vw;
+  }
+  .wc {
+    margin: 5.5vw 0 0 19vw;
+  }
+  .enter {
+    margin: 11.8vw 0 0 56.8vw;
+  }
+  .medicine {
+    margin: 18vw 0 0 12.5vw;
+  }
+  .hand-love {
+    margin: 31.5vw 0 0 44.5vw;
+  }
+  .ear {
+    margin: 50vw 0 0 25vw;
+  }
+  .tickets {
+    margin: 82vw 0 0 51vw;
+  }
+  .info {
+    margin: 95vw 0 0 19vw;
+  }
+  .mouth-close {
+    margin: 120vw 0 0 57vw;
+  }
+  .food {
+    margin: 126.5vw 0 0 31.5vw;
+  }
+  .hand-rap {
+    margin: 139.5vw 0 0 12.5vw;
+  }
+  .drink {
+    margin: 165vw 0 0 50.5vw;
+  }
+  .hand-peace {
+    margin: 178vw 0 0 6vw;
+  }
+  .hand-rock {
+    margin: 190vw 0 0 37.5vw;
+  }
+  .mouth-open {
+    margin: 209.5vw 0 0 57vw;
+  }
+
+
+  .map .mouth-container {
+    bottom: -257vw;
+  }
+  .map .mouth-container .map-mouth {
+    width: 56vw;
+  }
+
+  .pink-way-container {
+    top: 90vw;
+  }
+  .pink-way-container .desktop .pink-way,
+  .pink-way-container .phone .pink-way {
+    height: 0;
+    width: 0;
+  }
+  .pink-way-container .tablet .pink-way {
+    width: 81vw;
+    height: auto;
+    margin-left: 10vw;
+  }
+  .pink-way-container .phone .pink-way path{
+    stroke-width: 1.5vw;
   }
 }
 
 @media (min-width: 1024px){
-  .cover {
-    border-width: 10px;
-    padding: 22px;
+  .cover,
+  .map {
+    border-width: 0.8vw;
+    padding: 3vh 2.5vw;
   }
-  .cover_way-container {
-    margin: -32px;
+
+
+  /*ОБЛОЖКА*/
+
+  .cover .ways-container .violet-way {
+    margin: 0;
   }
-  .cover_way-container .violet-way .skinny-way{
-    stroke-width: 20px;
+  .cover .ways-container .violet-way .skinny-way{
+    stroke-width: 1.5vw;
   }
-  .cover_way-container .violet-way .big-way{
-    stroke-width: 40px;
+  .cover .ways-container .violet-way .big-way{
+    stroke-width: 4vw;
   }
-  .cover_top-part {
-    font-size: 15vw;
-    margin-left: -0.5vw;
+
+  .cover .text-container {
+    width: 93.4vw;
+    height: 92.2vh;
   }
-  .cover_top-part .header {
-    font-size: 2.45vw;
-    margin-bottom: 0px;
-    margin-left: 0.5vw;
+  .cover .text-container .top div{
+    font-size: 1.7vw;
+    margin-bottom: 1vw;
   }
-  .cover_bottom-part {
-    font-size: 4.2vw;
+  .cover .text-container .top h1 {
+    font-size: 12.5vw;
+  }
+  .cover .text-container .bottom {
     display: flex;
     justify-content: space-between;
+    font-size: 3.3vw;
   }
-  .cover_bottom-part p {
+  .cover .text-container .bottom p {
     margin-bottom: 0;
   }
-  .cover_ear_container {
-    margin: -32px;
+
+  .cover .ear-container .ear-cover {
+    height: 80vh;
+    right: -4vw;
   }
-  .cover_ear {
-    height: 75vh;
-    margin: 25vh 36vw;
+
+
+  /*КАРТА*/
+
+  .map .grids-container .desktop {
+    width: 93.4vw;
+  }
+  .map .grids-container .desktop svg {
+    width: 93.4vw;
+  }
+  .map .grids-container .desktop{
+    opacity: 1;
+    position: static;
+  }
+  .map .grids-container .tablet,
+  .map .grids-container .phone {
+    opacity: 0;
+    position: absolute;
+    width: 0;
+  }
+  .map .icons-container {
+    border-width: 1vw;
+    top: 111.5vh;
+    left: 12vw;
+    width: 76vw;
+    height: 164vw;
+  }
+  .map .icons-container div {
+    width: 13vw;
+    height: 13vw;
+  }
+  .wc {
+    margin: 5.5vw 0 0 19vw;
+  }
+  .enter {
+    margin: 11.8vw 0 0 56.8vw;
+  }
+  .medicine {
+    margin: 18vw 0 0 12.5vw;
+  }
+  .hand-love {
+    margin: 31.5vw 0 0 44.5vw;
+  }
+  .ear {
+    margin: 50vw 0 0 25vw;
+  }
+  .tickets {
+    margin: 82vw 0 0 51vw;
+  }
+  .info {
+    margin: 95vw 0 0 19vw;
+  }
+  .mouth-close {
+    margin: 120vw 0 0 57vw;
+  }
+  .food {
+    margin: 126.5vw 0 0 31.5vw;
+  }
+  .hand-rap {
+    margin: 139.5vw 0 0 12.5vw;
+  }
+  .drink {
+    margin: 165vw 0 0 50.5vw;
+  }
+  .hand-peace {
+    margin: 178vw 0 0 6vw;
+  }
+  .hand-rock {
+    margin: 190vw 0 0 37.5vw;
+  }
+  .mouth-open {
+    margin: 209.5vw 0 0 57vw;
+  }
+
+
+  .map .mouth-container {
+    bottom: -257vw;
+  }
+  .map .mouth-container .map-mouth {
+    width: 56vw;
+  }
+
+  .pink-way-container {
+    top: 90vw;
+  }
+  .pink-way-container .desktop .pink-way,
+  .pink-way-container .phone .pink-way {
+    height: 0;
+    width: 0;
+  }
+  .pink-way-container .tablet .pink-way {
+    width: 81vw;
+    height: auto;
+    margin-left: 10vw;
+  }
+  .pink-way-container .phone .pink-way path{
+    stroke-width: 1.5vw;
   }
 }

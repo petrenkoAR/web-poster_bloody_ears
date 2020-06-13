@@ -11,9 +11,9 @@
       <div  class="ways-container">
         <svg class="violet-way" width="1920" height="976" viewBox="0 0 1920 976" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0)">
-            <path class="skinny-way way-first" d="M0 268C34 268 92 658 216 682C340 706 784 524 538 520C292 516 106 10 404 180C702 350 690 32 690 0" stroke="#8700DC"/>
-            <path class="skinny-way way-second" d="M951.515 976C951.515 918 1331.52 792 1271.52 656C1211.52 520 922 440 826 550C730.001 660 887.997 764 979.999 794C1072 824 1501.52 976 1581.52 778C1661.52 580 1215.52 302 1353.52 192C1491.52 82 1890 342 1919.51 342" stroke="#8700DC"/>
-            <path class="big-way way-third" d="M1318.47 0C1318.47 46 778.467 104 618.469 328C496.964 498.109 1054 256 1068 590C1082 924 298 922 298 976" stroke="#8700DC"/>
+            <path class="skinny-way way-first" d="M0 268C34 268 92 658 216 682C340 706 784 524 538 520C292 516 106 10 404 180C702 350 690 32 690 0" stroke="#8700DC" stroke-linecap="round"/>
+            <path class="skinny-way way-second" d="M951.515 976C951.515 918 1331.52 792 1271.52 656C1211.52 520 922 440 826 550C730.001 660 887.997 764 979.999 794C1072 824 1501.52 976 1581.52 778C1661.52 580 1215.52 302 1353.52 192C1491.52 82 1890 342 1919.51 342" stroke="#8700DC" stroke-linecap="round"/>
+            <path class="big-way way-third" d="M1318.47 0C1318.47 46 778.467 104 618.469 328C496.964 498.109 1054 256 1068 590C1082 924 298 922 298 976" stroke="#8700DC" stroke-linecap="round"/>
           </g>
           <defs>
             <clipPath id="clip0">
@@ -37,7 +37,9 @@
           <p>ПАРК ГОРЬКОГО</p>
         </div>
       </div>
-      <img class="ear-cover" src="styles/imgs/parts_of_face/main-ear.png" alt="Пиксельное ухо">
+      <div class="ear-container">
+        <img class="ear-cover" src="styles/imgs/parts_of_face/main-ear.png" alt="Пиксельное ухо">
+      </div>
     </div>
 
     <div class="map">
@@ -56,7 +58,7 @@
           <svg class="pink-grid" width="678" height="1829" viewBox="0 0 678 1829" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M98.9698 3V1826M195.01 3V1826M290.98 3V1826M387.02 3V1826M482.99 3V1826M579.03 3V1826M675 1730.07H3M675 1634.13H3M675 1538.13H3M675 1442.2H3M675 1346.27H3M675 1250.33H3M675 1154.4H3M675 1058.4H3M675 962.466H3M675 866.534H3M675 770.601H3M675 674.599H3M675 578.666H3M675 482.733H3M675 386.8H3M675 290.868H3M675 194.865H3M675 98.9327H3M3 3V1826H675V3H3Z" stroke="#FF4ACC" stroke-width="5" stroke-miterlimit="10"/>
           </svg>
-          <svg class="green-grid" width="673" height="1827" viewBox="0 0 673 1827" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="green-grid" width="673" height="1827" viewBox="0 0 673 1840" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M49.8 2V1825M97.6 2V1825M145.4 2V1825M193.2 2V1825M241 2V1825M288.8 2V1825M336.6 2V1825M384.4 2V1825M432.2 2V1825M480 2V1825M527.8 2V1825M575.6 2V1825M623.4 2V1825M671.2 1777.06H2M671.2 1729.05H2M671.2 1681.11H2M671.2 1633.1H2M671.2 1585.16H2M671.2 1537.15H2M671.2 1489.21H2M671.2 1441.2H2M671.2 1393.26H2M671.2 1345.24H2M671.2 1297.3H2M671.2 1249.29H2M671.2 1201.35H2M671.2 1153.34H2M671.2 1105.4H2M671.2 1057.39H2M671.2 1009.45H2M671.2 961.441H2M671.2 913.5H2M671.2 865.559H2M671.2 817.549H2M671.2 769.608H2M671.2 721.598H2M671.2 673.657H2M671.2 625.647H2M671.2 577.706H2M671.2 529.696H2M671.2 481.755H2M671.2 433.745H2M671.2 385.804H2M671.2 337.794H2M671.2 289.853H2M671.2 241.843H2M671.2 193.902H2M671.2 145.892H2M671.2 97.951H2M671.2 49.9407H2M2 2V1825H671.2V2H2Z" stroke="#00F336" stroke-width="3" stroke-miterlimit="10"/>
           </svg>
         </div>
@@ -72,7 +74,7 @@
       <div class="icons-container">
         <div class="wc">
         </div>
-        <div class="entrance">
+        <div class="enter">
         </div>
         <div class="medicine">
         </div>
@@ -99,12 +101,30 @@
         <div class="mouth-open">
         </div>
       </div>
-      <img class="map_mouth" src="styles/imgs/parts_of_face/main-mouth.png" alt="Рот пиксельный.">
+      <div class="mouth-container">
+        <img class="map-mouth" src="styles/imgs/parts_of_face/main-mouth.png" alt="Рот пиксельный.">
+      </div>
     </div>
 
-    <svg class="pink-way" width="1342" height="3598" viewBox="0 0 1342 3598" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1321 21C1321 21 628 106 628 415.5C628 725 869 685 869 941C869 1044.96 837 1205 628 1116.33C419 1027.65 201 1204.06 201 1425C201 1640.64 685 1730.87 869 1679.93C1053 1629 1281 1776.29 1281 1973C1281 2194.61 869 2081 697 2273C525 2465 21 2135.89 21 2317C21 2425.82 149 3029 319.491 2849C489.981 2669 1281 3751.23 1281 3125C1281 2816.77 805 2677 837 2901C869 3125 21 3577 21 3577" stroke="#FF4ACC" stroke-width="40" stroke-linecap="round"/>
-    </svg>
+    <div class="pink-way-container">
+      <div class="phone">
+        <svg class="pink-way" width="297" height="1471" viewBox="0 -50 320 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M289 8C289 8 139.205 42.7793 139.205 169.417C139.205 296.054 191.299 279.687 191.299 384.434C191.299 426.97 184.382 492.454 139.205 456.172C94.0293 419.89 46.9077 492.071 46.9077 582.471C46.9077 670.706 151.526 707.623 191.299 686.782C231.071 665.942 280.354 726.209 280.354 806.695C280.354 897.37 191.299 850.885 154.12 929.445C116.942 1008.01 8 873.345 8 947.449C8 991.975 35.6677 1238.78 72.5199 1165.13C109.372 1091.48 280.354 1534.29 280.354 1278.06C280.354 1151.94 177.465 1094.75 184.382 1186.4C191.299 1278.06 8 1463 8 1463" stroke="#FF4ACC" stroke-width="15" stroke-linecap="round"/>
+        </svg>
+
+      </div>
+      <div class="tablet">
+        <svg class='pink-way' width="601" height="2057" viewBox="0 0 601 2057" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M588 13C588 13 280.948 61.5714 280.948 238.429C280.948 415.286 387.729 392.429 387.729 538.714C387.729 598.118 373.551 689.571 280.948 638.901C188.345 588.23 91.7539 689.035 91.7539 815.286C91.7539 938.511 306.203 990.068 387.729 960.963C469.255 931.857 570.277 1016.02 570.277 1128.43C570.277 1255.06 387.729 1190.14 311.52 1299.86C235.311 1409.57 12 1221.51 12 1325C12 1387.18 68.7139 1731.86 144.254 1629C219.795 1526.14 570.277 2144.56 570.277 1786.71C570.277 1610.58 359.372 1530.71 373.551 1658.71C387.729 1786.71 12 2045 12 2045" stroke="#FF4ACC" stroke-width="24" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="desktop">
+        <svg class="pink-way" width="1342" height="3598" viewBox="0 0 1342 3598" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1321 21C1321 21 628 106 628 415.5C628 725 869 685 869 941C869 1044.96 837 1205 628 1116.33C419 1027.65 201 1204.06 201 1425C201 1640.64 685 1730.87 869 1679.93C1053 1629 1281 1776.29 1281 1973C1281 2194.61 869 2081 697 2273C525 2465 21 2135.89 21 2317C21 2425.82 149 3029 319.491 2849C489.981 2669 1281 3751.23 1281 3125C1281 2816.77 805 2677 837 2901C869 3125 21 3577 21 3577" stroke="#FF4ACC" stroke-width="40" stroke-linecap="round"/>
+        </svg>
+
+      </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="js/main.js"></script>
